@@ -1,4 +1,4 @@
-package Hw;
+package Dev;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -7,12 +7,10 @@ import java.io.IOException;
 import java.util.Arrays;
 
 
-public class job_2 {
+public class gf {
 
-    
- 
     public static void main(String[] args) {
-        File file = new File("b.txt");
+        File file = new File("prog.txt");
         try {
                 FileWriter pw = new FileWriter(file, true);
                 int temp;
@@ -41,3 +39,4 @@ public class job_2 {
         }
     }    
 }    
+
